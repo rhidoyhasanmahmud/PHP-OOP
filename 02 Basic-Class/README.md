@@ -9,6 +9,8 @@ Object − Objects have states and behaviors. Example: A dog has states - color,
 2. Behavior : It is represented by methods of an object. It also reflects the response of an object with other objects.
 3. Identity : It gives a unique name to an object and enables one object to interact with other objects.
 
+The $this keyword refers to the current object, and is only available inside methods.
+
 Example of an object : dog
 
 ![An-Object](https://github.com/CodeMechanix/PHP-OOP/blob/master/Images/Blank-Diagram-Page-1-5.png)
