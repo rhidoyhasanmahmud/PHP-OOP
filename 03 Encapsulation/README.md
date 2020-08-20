@@ -153,4 +153,13 @@ What are the advantages of PHP encapsulation?
 
 Note:: Encapsulation is the process of hidding the data of the object from outside world and accessed to it is restricted to members of the class.
 
+### PHP - Access Modifiers
+Properties and methods can have access modifiers which control where they can be accessed.
+
+There are three access modifiers:
+
+1. public - the property or method can be accessed from everywhere. This is default
+2. protected - the property or method can be accessed within the class and by classes derived from that class
+3. private - the property or method can ONLY be accessed within the class
+
 [ Obj -> Public Method/Items of Class -> after verification move another private items]
