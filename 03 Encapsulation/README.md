@@ -153,3 +153,4 @@ What are the advantages of PHP encapsulation?
 
 Note:: Encapsulation is the process of hidding the data of the object from outside world and accessed to it is restricted to members of the class.
 
+[ Obj -> Public Method/Items of Class -> after verification move another private items]
