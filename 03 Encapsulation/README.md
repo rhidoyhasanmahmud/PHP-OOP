@@ -162,4 +162,30 @@ There are three access modifiers:
 2. protected - the property or method can be accessed within the class and by classes derived from that class
 3. private - the property or method can ONLY be accessed within the class
 
+### Constants 
+It is possible to define constant values on a per-class basis remaining the same and unchangeable. Constants differ from normal variables in that you don't use the $ symbol to declare or use them. The default visibility of class constants is public.
+
+#### Example #1 Defining and using a constant
+```php
+const CONSTANT = 'constant value';
+```
+
+### const vs static
+
+Constant is just a constant, i.e. you can't change its value after declaring.
+
+Static variable is accessible without making an instance of a class and therefore shared between all the instances of a class.
+
+Also, there can be a static local variable in a function that is declared only once (on the first execution of a function) and can store its value between function calls, example:
+
+```php
+function foo()
+{
+   static $numOfCalls = 0;
+   $numOfCalls++;
+   print("this function has been executed " . $numOfCalls . " times");
+}
+```
+
+
 [ Obj -> Public Method/Items of Class -> after verification move another private items]
